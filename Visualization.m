@@ -20,4 +20,5 @@ plot(time(1:t_stop),Z_filtered(1:t_stop),'LineWidth',2);
 xlim([time(1) time(t_stop)])
 grid on
 xlabel('t, c')
+legend('X','Y','Z','X фильтрованное','Y фильтрованное','Z фильтрованное')
 ylabel('Координата, м')
